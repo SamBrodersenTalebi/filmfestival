@@ -1,0 +1,108 @@
+/* Universal styles*/
+.spacing{
+  margin: 10px 0;
+  padding:70px 0;
+  background-color:#272B23 ;
+}
+/*#373737*/
+
+p, input{
+  font-family: 'Crimson text', serif;
+}
+
+.nav-link{
+  font-family: 'Crimson text', serif;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand{
+  font-family: 'Work Sans', sans-serif;
+}
+
+h2{
+  color: #978F81;
+}
+
+/*#BF666C*/
+.red{
+  color:#653D2E;
+}
+
+.btn-primary{
+  background-color:#725436 !important;
+  border-color: #664B30 !important;
+}
+.btn-primary:hover{
+  background-color: #513C26 !important;
+}
+
+.btn-primary:visited{
+  border-color: #907D69 !important;
+}
+
+/*Nav bar*/
+
+
+/*Carousel section*/
+
+/* Icon section*/
+.iconsection{
+  margin-top: 50px;
+}
+.col-sm-4 i {
+    display:block;
+    text-align:center
+  }
+
+/* about us section*/
+
+.movie{
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+#aboutus-mobile{
+  display:none;
+}
+
+@media only screen and (max-width: 992px){
+  #aboutus-mobile{
+    display: block;
+  }
+
+  #aboutus{
+    display:none;
+  }
+
+  .center-header{
+    margin: 10px auto;
+  }
+}
+
+/* Movies section */
+.col-md-4 p{
+  height: 60px;
+}
+
+.form-row .col{
+  margin-bottom: 5px;
+}
+
+h5{
+  margin-top: 5px !important;
+}
+
+@media only screen and (max-width: 768px){
+  .col-sm-12 p{
+    height: 40px;
+  }
+  .col-md-4 button{
+    margin:0 auto;
+  }
+}
+
+/* footer icons */
+#icons{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
